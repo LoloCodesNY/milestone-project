@@ -87,10 +87,90 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+html {
+  font-size: 16px;
+}
+
+body {
+  display: block;
+  background-color: white;
+  font-size: 1em;
+  font-family: 'Nunito Sans', sans-serif;
+  margin: 0;
+}
+
+header {
+  background-color: #351D77;
+  color: #EEE4F0;
+  padding-top: 30px;
+  padding-bottom: 60px;
+}
+
+header nav ul li {
+  text-transform: uppercase;
+  font-size: .75em;
+}
+
+div {
+  display: block;
+}
+
+nav {
+  margin-bottom: 60px;
+  width: 75%;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+header h1 {
+  width: 100%;
+}
+
+header #work, #skills, #about, footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Alata', sans-serif;
+  margin: 0;
+}
+
 .content-wrapper {
   width: 85%;
-  margin: 0 auto;
 }
+
+#contact-link {
+  background-color: #E9B14C;
+  border-radius: 40px;
+  padding: 10px, 10px;
+  color: black;
+}
+
+#skills {
+  background-color: #351D77;
+}
+
+footer {
+  background-color: #351D77;
+}
+
 
 /* ==========================================================================
    Helper classes
