@@ -103,21 +103,16 @@ header {
   background-color: #351D77;
   color: #EEE4F0;
   padding-top: 30px;
-  padding-bottom: 60px;
+  padding-bottom: 30px;
 }
 
 header nav ul li {
   text-transform: uppercase;
-  font-size: .75em;
-}
-
-div {
-  display: block;
+  font-size: .75rem;
 }
 
 nav {
   margin-bottom: 60px;
-  width: 75%;
 }
 
 nav ul {
@@ -133,13 +128,24 @@ ul {
 
 a {
   text-decoration: none;
+  color: #EEE4F0;
+}
+
+#contact-link {
+  background-color: #EC91C4;
+  color: black;
+  border-radius: 30px;
 }
 
 header h1 {
   width: 100%;
 }
 
-header #work, #skills, #about, footer {
+.content-wrapper {
+  width: 85%;
+}
+
+header, #work, #skills, #about, footer {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -147,30 +153,75 @@ header #work, #skills, #about, footer {
   text-align: center;
 }
 
+#work, #skills, #about {
+  width: 100%;
+}
+
+#work {
+  padding-top: 80px;
+}
+
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Alata', sans-serif;
   margin: 0;
 }
 
-.content-wrapper {
-  width: 85%;
-}
-
-#contact-link {
-  background-color: #E9B14C;
-  border-radius: 40px;
-  padding: 10px, 10px;
-  color: black;
+h2 {
+  margin-top: 30px;
 }
 
 #skills {
   background-color: #351D77;
+  color: #EEE4F0;
+  padding-top: 60px;
+  padding-bottom: 80px;
+}
+
+.language-wrapper p, .tool-wrapper p {
+  background-color: #EC91C4;
+  border-radius: 20px;
+  padding: 15px 0;
+  margin: 20px 0;
+  text-transform: uppercase;
+}
+
+.skill, .tool {
+
+}
+
+#about {
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 
 footer {
   background-color: #351D77;
+  color: #EEE4F0;
+  padding-top: 80px;
+  padding-bottom: 60px;
 }
 
+footer .social-icons {
+  display: flex;
+  justify-content: space-around;
+}
+
+footer .social-icons li {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer .social-icons li i {
+  font-size: 1.875rem;
+  color: #EC91C4;
+}
+
+.fab {
+  font-family: "Font Awesome 5 Brands";
+}
 
 /* ==========================================================================
    Helper classes
