@@ -103,7 +103,7 @@ header {
   background-color: #351D77;
   color: #EEE4F0;
   padding-top: 30px;
-  padding-bottom: 30px;
+  padding-bottom: 60px;
 }
 
 header nav ul li {
@@ -129,12 +129,14 @@ ul {
 a {
   text-decoration: none;
   color: #EEE4F0;
+  font-weight: bold;
 }
 
 #contact-link {
   background-color: #EC91C4;
-  color: black;
+  color: #351D77;
   border-radius: 30px;
+  padding: 0.75rem;
 }
 
 header h1 {
@@ -143,6 +145,35 @@ header h1 {
 
 .content-wrapper {
   width: 85%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Alata', sans-serif;
+  margin: 0;
+}
+
+h2 {
+  margin-top: 30px;
+}
+
+h3 {
+  font-size: 1.75em;
+  margin-bottom: 60px;
+}
+
+h4 {
+  font-size: 1.25em;
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+
+h5 {
+  margin-bottom: 30px;
+  font-size: 1.5rem;
+}
+
+.project-header {
+  padding-bottom: 20px;
 }
 
 header, #work, #skills, #about, footer {
@@ -158,16 +189,41 @@ header, #work, #skills, #about, footer {
 }
 
 #work {
-  padding-top: 80px;
+  padding-top: 60px;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'Alata', sans-serif;
+#work p, #about p {
+  text-align: left;
+  width: 100%;
+}
+
+.home-portfolio-piece {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.home-portfolio-piece h4 {
+  font-weight: bold;
+}
+
+.home-portfolio-piece figure {
+  width: 100%;
+  filter: drop-shadow(1px 2px 6px lightgrey);
+}
+
+span {
+  font-weight: bold;
+}
+
+img {
+  width: 100%;
+}
+
+p {
   margin: 0;
-}
-
-h2 {
-  margin-top: 30px;
 }
 
 #skills {
@@ -177,21 +233,41 @@ h2 {
   padding-bottom: 80px;
 }
 
+.skills-header {
+  margin-bottom: 20px;
+}
+
 .language-wrapper p, .tool-wrapper p {
   background-color: #EC91C4;
+  color: #351D77;
+  font-weight: bold;
   border-radius: 20px;
   padding: 15px 0;
   margin: 20px 0;
   text-transform: uppercase;
 }
 
-.skill, .tool {
+.project-description {
+  margin-bottom: 30px;
+}
 
+.live-page {
+  background-color: #351D77;
+  color: white;
+  font-family: Alata;
+  padding: 0.75rem 3.75rem;
+  border-radius: 30px;
+  text-transform: uppercase;
+  margin: 40px 0 60px 0;
 }
 
 #about {
   padding-top: 80px;
   padding-bottom: 80px;
+}
+
+.about-description {
+  margin-bottom: 30px;
 }
 
 footer {
@@ -201,9 +277,14 @@ footer {
   padding-bottom: 60px;
 }
 
+.contact-info {
+  margin-bottom: 60px;
+}
+
 footer .social-icons {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  padding-bottom: 60px;
 }
 
 footer .social-icons li {
