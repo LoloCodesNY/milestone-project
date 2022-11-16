@@ -135,7 +135,7 @@ h3 {
 h4 {
   font-size: 1.25em;
   margin-bottom: 40px;
-  margin-top: 40px;
+
 }
 
 h5 {
@@ -201,9 +201,17 @@ nav ul {
 
 #contact-link {
   background-color: #EC91C4;
-  color: #351D77;
+  color: black;
   border-radius: 30px;
   padding: 0.75rem;
+}
+
+nav ul li a:hover,
+nav #contact-link:hover {
+  background-color: #F4BEDC;
+  color: black;
+  padding: 10px 10px;
+  border-radius: 30px;
 }
 
 header h1 {
@@ -259,7 +267,7 @@ header h1 {
 
 .language-wrapper p, .tool-wrapper p {
   background-color: #EC91C4;
-  color: #351D77;
+  color: black;
   font-weight: bold;
   border-radius: 20px;
   padding: 15px 0;
@@ -279,6 +287,11 @@ header h1 {
   border-radius: 30px;
   text-transform: uppercase;
   margin: 40px 0 60px 0;
+}
+
+.live-page:hover {
+  background-color: #D4D3E9;
+  color: black;
 }
 
 /* About Styles */
@@ -465,11 +478,19 @@ header {
 
 nav {
   margin-bottom: 80px;
+  margin-right: 0px;
+}
+
+header nav {
+  display: flex;
+  justify-content: center;
+  width: 100%;
 }
 
 header nav ul {
   display: flex;
   justify-content: space-between;
+  width: 80%;
 }
 
 h2 {
@@ -496,6 +517,19 @@ h2 {
 
 /* Tablet Skills Styles */
 
+.skills-header {
+  margin-bottom: 40px;
+}
+
+#skills {
+  padding: 80px 0 120px 0;
+}
+
+#skills h4 {
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
 .language-wrapper, .tool-wrapper {
   display: flex;
   justify-content: space-evenly;
@@ -509,12 +543,37 @@ h2 {
 
 /* Tablet About Styles */
 
+#about {
+  padding: 120px 0 120px 0;
+}
+
+#about h3 {
+  margin: 80px;
+}
+
+#about h4 {
+  margin-bottom: 60px;
+  text-align: left;
+}
+
 /* Tablet Footer Styles */
+
+#contact {
+  padding: 120px 0 80px;
+}
+
+#contact h3 {
+  margin-bottom: 80px;
+}
 
 .contact-wrapper {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
+}
+
+.contact-info {
+  margin-bottom: 80px;
 }
 
 }
