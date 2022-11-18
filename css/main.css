@@ -585,6 +585,10 @@ h2 {
 
 /* Desktop General Styles */
 
+content-wrapper {
+  max-width: 1450px;
+}
+
 /* Desktop Font Styles */
 
 h1 {
@@ -614,6 +618,16 @@ header {
   padding: 80px 0px 140px 0px;
 }
 
+header .content-wrapper {
+  max-width: 1450px;
+  justify-content: flex-end;
+}
+
+header nav {
+  justify-content: flex-end;
+  width: 45%;
+}
+
 h2 {
   margin-top: 40px;
 }
@@ -622,6 +636,10 @@ h2 {
 
 #work {
   padding: 140px 0px 40px 0px;
+}
+
+#work .content-wrapper {
+  max-width: 1450px;
 }
 
 .home-portfolio-piece {
@@ -636,6 +654,10 @@ h2 {
 
 #skills {
   padding: 80px 0px 140px 0px;
+}
+
+#skills .content-wrapper {
+  max-width: 900px;
 }
 
 .language-wrapper p, .tool p {
