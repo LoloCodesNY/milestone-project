@@ -280,8 +280,8 @@ header h1 {
 }
 
 .live-page {
-  background-color: #351D77;
-  color: white;
+  background-color: #F4BEDC;
+  color: black;
   font-family: Alata;
   padding: 0.75rem 3.75rem;
   border-radius: 30px;
@@ -290,7 +290,7 @@ header h1 {
 }
 
 .live-page:hover {
-  background-color: #D4D3E9;
+  background-color: #F4BEDC;
   color: black;
 }
 
@@ -330,10 +330,14 @@ footer {
   margin-bottom: 60px;
 }
 
+footer ul {
+  width: 100%;
+}
+
 footer .social-icons {
   display: flex;
   flex-flow: row wrap;
-  justify-content: center;
+  justify-content: space-evenly;
   margin: 0px 0px 60px 0px;
 }
 
