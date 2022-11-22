@@ -305,8 +305,16 @@ header h1 {
   margin-top: 40px;
 }
 
+#profile-image {
+ width: 90%;
+}
+
 .about-description {
   margin-bottom: 30px;
+}
+
+figure {
+  margin: 0;
 }
 
 /* Footer Styles */
@@ -441,9 +449,10 @@ footer .social-icons li i {
 
 /* General Tablet Styles */
 
+/*
 .content-wrapper {
   max-width: 640px;
-}
+} */
 
 /* Tablet Font Styles */
 
@@ -482,10 +491,17 @@ nav {
   margin-right: 0px;
 }
 
+header .content-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+}
+
 header nav {
   display: flex;
   justify-content: center;
   width: 100%;
+  text-transform: uppercase;
 }
 
 header nav ul {
@@ -546,6 +562,16 @@ h2 {
 
 #about {
   padding: 120px 0 120px 0;
+}
+
+.about-content-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+}
+
+#about figure {
+  width: 60%;
 }
 
 #about h3 {
@@ -611,7 +637,6 @@ span {
   font-size: 1.25rem;
 }
 
-
 /* Desktop Header Styles */
 
 header {
@@ -628,8 +653,20 @@ header nav {
   width: 45%;
 }
 
+header nav ul {
+  justify-content: space-between;
+}
+
+nav {
+  margin-bottom: 80px;
+}
+
 h2 {
   margin-top: 40px;
+}
+
+.intro {
+  width: 100%;
 }
 
 /* Desktop Work Styles */
@@ -668,6 +705,19 @@ h2 {
 
 #about {
   padding: 140px 0px 160px 0px;
+}
+
+.about-content-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.about-info {
+  width: 60%;
+}
+
+#about figure {
+ width: 35%;
 }
 
 #about h3 {
